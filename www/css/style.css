@@ -1,0 +1,135 @@
+h1{
+    margin: 1px;
+/*    padding: 1px;*/
+}
+
+/* @import url('https://fontlibrary.org/face/segment14');*/
+@font-face {
+    font-family: 'Segment14Regular';
+        src: url('../fonts/Segment14Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+.digital-numbers {
+   font-family: 'Segment14Regular';
+   font-weight: bold;
+   font-style: normal;
+   color: red;
+   background: black;
+   font-size: 200%;
+   border: 5px solid gray;
+   /* padding: 1px;*/
+   margin: 1px;
+} 
+
+.empty-cell {
+	background-image: url("../img/empty-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+
+.flag-cell {
+	background-image: url("../img/flag-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+
+.bomb-cell {
+	background-image: url("../img/bomb-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+
+.mine-cell {
+	background-image: url("../img/mine-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+
+.nothing-cell {
+	background-image: url("../img/nothing-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+
+.one-cell {
+	background-image: url("../img/one-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.two-cell {
+	background-image: url("../img/two-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.three-cell {
+	background-image: url("../img/three-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.four-cell {
+	background-image: url("../img/four-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.five-cell {
+	background-image: url("../img/five-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.six-cell {
+	background-image: url("../img/six-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.seven-cell {
+	background-image: url("../img/seven-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.eight-cell {
+	background-image: url("../img/eight-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+.nine-cell {
+	background-image: url("../img/nine-cell.png");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height: 64px;
+   width: 64px;
+}
+
+
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
